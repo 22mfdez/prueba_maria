@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diseño Prueba</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="public/css/estilos.css" />
+  </head>
+  <body>
+    <div class="nav-mobile">
+      <ul class="nav-mobile-list">
+        <li class="nav-mobile-item">
+          <ion-icon name="home"></ion-icon>
+          <a class="nav-mobile-link" href="">Inicio</a>
+        </li>
+        <li class="nav-mobile-item">
+          <ion-icon name="globe"></ion-icon> 
+          <a class="nav-mobile-link" href="#">Encuestas</a>
+        </li>
+        <li class="nav-mobile-item">
+          <ion-icon name="calendar"></ion-icon>
+          <a class="nav-mobile-link" href="#">Resultados</a>
+        </li>
+        <li class="nav-mobile-item">
+          <ion-icon name="person"></ion-icon>
+          <a class="nav-mobile-link" href="#">Perfil</a>
+        </li>
+        <li class="nav-mobile-item">
+          <ion-icon name="exit"></ion-icon>
+          <a class="nav-mobile-link" href="#">Cerrar sesión</a>
+        </li>
+      </ul>
+
+    </div>
+    <nav>
+      <div class="container-nav">
+        <div class="btn-left">
+          <ion-icon class="flecha-menu" name="arrow-back"></ion-icon>
+          <a href="" id="btn-menu"><ion-icon class="icono-menu" name="menu"></ion-icon></a>
+        </div>
+
+        <h1>Encuestas</h1>
+        <ion-icon class="icono-exit" name="exit"></ion-icon>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="avatares">
+        <div class="avatar-container">
+          <img src="public/images/avatar1.jpg" alt="Avatar 1" class="avatar" />
+          <div class="avatar-info">
+            <p class="avatar-info-name">Carla</p>
+            <p class="avatar-info-points">1584</p>
+          </div>
+        </div>
+
+        <div class="avatar-container">
+          <div class="avatar-info">
+            <p class="avatar-info-name">María</p>
+            <p class="avatar-info-points">1584</p>
+          </div>
+          <img src="public/images/avatar2.jpg" alt="Avatar 2" class="avatar" />
+        </div>
+      </div>
+
+      <div class="answers">
+        <div class="progreso">Pregunta 6/8</div>
+      </div>
+
+      <div class="pregunta">
+        <div class="pregunta-texto">
+          <h2>¿Cuál es tu color favorito?</h2>
+        </div>
+        <!-- Aquí puedes poner las opciones de la encuesta -->
+        <div class="opciones">
+          <div class="opcion">
+            <label for="opcion1">Rojo</label>
+          </div>
+          <div class="opcion">
+            <label for="opcion2">Azul</label>
+          </div>
+          <div class="opcion">
+            <label for="opcion3">Verde</label>
+          </div>
+          <div class="opcion">
+            <label for="opcion4">Amarillo</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./public/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </body>
+</html>
